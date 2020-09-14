@@ -1014,7 +1014,7 @@ section {
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
-  bottom: calc(50% - 50px);
+  bottom: calc(37% - 50px);
 }
 
 /*--------------------------------------------------------------
@@ -1417,6 +1417,9 @@ section {
 .portfolio-details .portfolio-details-carousel {
   position: relative;
   z-index: 1;
+}
+.portfolio-details .portfolio-details-carousel img{
+  width: 73%;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {

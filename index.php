@@ -80,7 +80,8 @@
 
     </div>
   </header> --><!-- End Header -->
-  
+  <?php include 'navbar.php' ?>
+
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -395,7 +396,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/p1.jpg" data-gall="portfolioGallery" class="venobox" title="Shareyaar"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -409,7 +410,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/p2.png" data-gall="portfolioGallery" class="venobox" title="Aswini"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -423,7 +424,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/p3.png" data-gall="portfolioGallery" class="venobox" title="Whatsnext"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -437,7 +438,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/p4.jpg" data-gall="portfolioGallery" class="venobox" title="OM Triple R India Private Limited Website"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -451,7 +452,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/p5.png" data-gall="portfolioGallery" class="venobox" title="Eatz App"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -465,7 +466,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -479,7 +480,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/p7.png" data-gall="portfolioGallery" class="venobox" title="Serve to Seat App"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -493,7 +494,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/p8.jpg" data-gall="portfolioGallery" class="venobox" title="Sree Sannidi Associates Website"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -507,7 +508,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/p9.png" data-gall="portfolioGallery" class="venobox" title="Macrovet.nl Website"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -520,7 +521,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/p10.png" data-gall="portfolioGallery" class="venobox" title="E-commerce Website"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -533,7 +534,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/p11.png" data-gall="portfolioGallery" class="venobox" title="E-commerce Website"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -546,7 +547,7 @@
               </div>
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/p12.png" data-gall="portfolioGallery" class="venobox" title="Martial Kelojou E-commerce Website"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.php" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -557,7 +558,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section-bg">
+    <!-- <section id="pricing" class="pricing section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -639,7 +640,7 @@
         </div>
 
       </div>
-    </section><!-- End Pricing Section -->
+    </section> --><!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq">
@@ -838,14 +839,14 @@
       <div class="copyright-wrap d-md-flex py-4">
         <div class="mr-md-auto text-center text-md-left">
           <div class="copyright">
-            &copy; Copyright <strong><span>Techie</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>Digital Tribe</span></strong>. All Rights Reserved
           </div>
           <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            
           </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
