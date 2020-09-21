@@ -653,7 +653,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  padding: 3rem 1rem;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -689,7 +689,7 @@ section {
 .services .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
-  font-size: 22px;
+  font-size: 1.2rem;
 }
 
 .services .icon-box h4 a {
@@ -748,10 +748,12 @@ section {
   color: #ffbb2c;
 }
 
-.services .iconbox-yellow:hover .icon i {
+.services .iconbox-yellow:hover .icon img {
   color: #fff;
 }
-
+.services .moodle-icon{
+  z-index: 2;
+}
 .services .iconbox-yellow:hover .icon path {
   fill: #ffbb2c;
 }
