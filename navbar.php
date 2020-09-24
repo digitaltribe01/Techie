@@ -1,11 +1,11 @@
 <header id="header" class="fixed-top ">
-    <div class="container-fluid">
+    <div class="container-fluid ">
 
-      <div class="row justify-content-center">
+      <div class="row justify-content-center navbar-shape">
         <div class="col-xl-9 d-flex align-items-center">
           <!-- <h1 class="logo mr-auto"><a href="index.html"><img src="assets/img/dt-logo.png"></a></h1> -->
           <!-- Uncomment below if you prefer to use an image logo -->
-           <a href="index.php" class="logo mr-auto"><img src="assets/img/dt-logo2.png" alt="" class="img-fluid"></a>
+           <a href="index.php" class="logo mr-auto"><img src="assets/img/dt-logo3.png" alt="" class="img-fluid"></a>
 
           <nav class="nav-menu d-none d-lg-block">
             <ul>
