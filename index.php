@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Digital Tribe</title>
+  <!-- <title>Digital Tribe</title> -->
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -24,6 +24,8 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/animate-master/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/hover.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -38,14 +40,29 @@
 </head>
 
 <body>
+  
   <?php include 'navbar.php' ?>
-
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-
+    <div class="line-wrap">
+      <div class="line-item"></div>
+      <div class="line-item"></div>
+      <div class="line-item"></div>
+      <div class="line-item"></div>
+      <div class="line-item"></div>
+    </div>
+    <div class="squares">
+        <img src="assets/img/ellipse.png" class="img-fluid img-2 set-abs" loading="lazy">  
+    </div>
+    <div class="animated-bg"> 
+      <i></i> 
+      <i></i> 
+      <i></i> 
+    </div>
     <div class="container-fluid" data-aos="fade-up">
-      <div class="row justify-content-center">
+      
+      <div class="row justify-content-center ">
         <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1>Serving our customers needs, digitally.</h1>
           <h2>We are a team of young and enthusiastic people with a passion for internet. We are young, we are capable, and we are eager to prove ourselves. And it is this quality of ours, which differentiates us from others.</h2>
