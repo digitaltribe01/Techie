@@ -468,7 +468,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  /*animation: up-down 2s ease-in-out infinite alternate-reverse both;*/
 }
 
 @media (min-width: 1200px) {
@@ -1669,8 +1669,6 @@ section {
     z-index: 0;
     display: block;
     position: absolute;
-    /*-webkit-transform: translateX(-50%);*/
-    /*-ms-transform: translateX(-50%);*/
     transform: translateX(-50%);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -1778,4 +1776,9 @@ section {
   50%{top: 15%; right: 18%;}
   75%{top: 15%; right: 28%;}
   100%{top: 45%; right: 28%;}
+}
+.hero-img .img-fluid{
+  transform: rotate(-35deg);
+  transform-style: preserve-3d;
+  margin-left: 7rem;
 }
