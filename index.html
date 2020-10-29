@@ -103,7 +103,7 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="about" class="about" onmouseover="changecolor()" onmouseout="revert()">
       <div class="container">
 
         <div class="row">
@@ -877,6 +877,16 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script >
+    function changecolor(){
+      document.getElementById('about').style.background = "black"
+      document.getElementById('about').style.color = "white"
+    }
+    function revert(){
+      document.getElementById('about').style.background = "white"
+      document.getElementById('about').style.color = "black"
+    }
+  </script>
 
 </body>
 

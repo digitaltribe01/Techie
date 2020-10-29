@@ -34,9 +34,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <style type="text/css">
-    #header{
-      background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
-    }
+    
   </style>
 </head>
 
