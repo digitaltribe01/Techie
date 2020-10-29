@@ -2181,3 +2181,6 @@ section {
 #hero .hero-row{
   justify-content: space-evenly;
 }
+#hero .flex-column{
+  max-width: 40%;
+}

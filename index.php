@@ -30,7 +30,7 @@
   
   <?php include 'navbar.php'; ?>
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="hero" class="d-flex align-items-center" onmouseout="mouseout()" onmouseover="mousein()">
     <div class="line-wrap">
       <div class="line-item"></div>
       <div class="line-item"></div>
@@ -53,7 +53,7 @@
           <h1>Serving our customers needs, digitally.</h1>
           <h2>We are a team of young and enthusiastic people with a passion for internet. We are young, we are capable, and we are eager to prove ourselves. And it is this quality of ours, which differentiates us from others.</h2>
         </div>
-        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="150" onmouseout="mouseout()">
+        <div class="col-xl-4 col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="150" >
           <div class="banner-images ul-li clearfix" >
             <ul class=" clearfix banner-ul" id="scene" > 
               <li data-depth="0.2" class="banner-li1" id="li1" >
@@ -846,9 +846,11 @@
       var scene = document.getElementById('scene');
       var parallaxInstance = new Parallax(scene);
       parallaxInstance.friction(1.2, 1.2);
-      relativeInput: true;
-      function mouseout(scene){
-        return Parallax.destroy()
+      function mouseout(){
+        parallaxInstance.disable()
+      }
+      function mousein(){
+        parallaxInstance.enable() 
       }
     </script>
 
